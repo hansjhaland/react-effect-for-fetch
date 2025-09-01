@@ -1,5 +1,4 @@
 const UserListItem = ({image, firstName, lastName, email, favColor}) => {
-    console.log(favColor)
     return (
         <li style={{backgroundColor: `${favColor}`}}>
             <img src={image} alt={`${firstName} ${lastName}`}/>
